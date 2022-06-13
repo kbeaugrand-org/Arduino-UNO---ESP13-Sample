@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "Arduino UNO - ESP13 Sample",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"string": "cpp",
+			"ranges": "cpp",
+			"random": "cpp",
+			"system_error": "cpp",
+			"cmath": "cpp"
+		},
+		"cSpell.words": [
+			"CIPRECVDATA",
+			"CIPRECVLEN",
+			"CIPSERVER",
+			"CWJAP",
+			"CWLAP",
+			"millis",
+			"rssi",
+			"ssid",
+			"UARTWIFI"
+		]
+	}
+}

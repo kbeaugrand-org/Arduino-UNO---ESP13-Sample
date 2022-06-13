@@ -1,0 +1,3 @@
+[submodule "lib/array"]
+	path = lib/array
+	url = https://github.com/janelia-arduino/Array.git

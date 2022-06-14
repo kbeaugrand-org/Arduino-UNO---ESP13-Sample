@@ -6,4 +6,4 @@
 	url = https://github.com/kbeaugrand/arduino-logging-library.git
 [submodule "lib/uartWiFi"]
 	path = lib/uartWiFi
-	url = https://github.com/kbeaugrand/esp13-uart-wifi.git
+	url = https://github.com/kbeaugrand/Arduino-ESP13-uartWiFi-Driver.git

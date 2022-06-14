@@ -3,7 +3,7 @@
 #include "uartWiFi.h"
 #include "logging.h"
 
-#define STA
+#define SOFT_AP
 #define TCP_BUFFER_SIZE 128
 
 #ifdef SOFT_AP
@@ -49,6 +49,7 @@ void setup()
 
 void loop()
 {
+  delay(100);
   Array<TCP_CHANNEL, 4> tcp_channels;
 
   if (!uartWiFi.getClientStatus(&tcp_channels))

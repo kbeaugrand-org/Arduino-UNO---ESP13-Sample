@@ -64,7 +64,7 @@ void UARTWifi::begin(void)
     _uartCell.println("AT");
     _uartCell.flush();
 
-    if (_uartCell.find("OK"))
+    if (_uartCell.find(OK_STR))
     {
         LogInfo("WiFi module initialized");
         return;
